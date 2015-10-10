@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+    margin:0px;
+}
+#canvas {
+    background:#111;
+    position:fixed;
+    top:0px;
+    left:0px;
+}
+
+#about {
+    position:fixed;
+    bottom:20px;
+    right:0px;
+    width:209px;
+    background:black;
+    color:white;
+    padding:20px;
+    cursor:default;
+}
+#title {
+    margin:0px;
+    font-family: 'Titillium Web', sans-serif;
+}
+#about p {
+    margin:0px;
+    font-family: 'Montserrat', sans-serif;
+}
+#about p a {
+    color:#ddd;
+}
+#about:before {
+    content:' ';
+    display:block;
+    border:50px solid transparent;
+    border-bottom-color:black;
+    border-right-color:black;
+    position:absolute;
+    bottom:0px;
+    left:-80px;
+}
+#about:after {
+    content:' ';
+    display:block;
+    border:50px solid transparent;
+    border-top-color:black;
+    border-right-color:black;
+    position:absolute;
+    top:0px;
+    left:-80px;
+}
